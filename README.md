@@ -1,20 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Heavenly Technologies
 
-# Run and deploy your AI Studio app
+Project built with React, Vite, and Node.js.
 
-This contains everything you need to run your app locally.
+## Scripts
 
-View your app in AI Studio: https://ai.studio/apps/08c54ccb-8df7-4a75-9b23-6ee724aa6d9c
+- `npm run dev`: Start development server
+- `npm run build`: Build for production
+- `npm start`: Start production server (Node.js)
 
-## Run Locally
+## Deployment on Hostinger
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Ensure you are using the Node.js hosting plan.
+- Set `app.js` as the application entry point.
+- Ensure the Node.js version is set to 20 or higher.
