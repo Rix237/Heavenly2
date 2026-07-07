@@ -57,15 +57,15 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+237676096350" className="flex items-start gap-3 group text-gray-400 hover:text-white transition-colors">
-                  <Phone className="w-5 h-5 text-electric-blue mt-0.5 group-hover:text-electric-cyan transition-colors" />
-                  <span className="text-sm">+237 676 09 63 50</span>
+                <a href="https://wa.me/237680233414" target="_blank" rel="noreferrer" className="flex items-start gap-3 group text-gray-400 hover:text-white transition-colors">
+                  <MessageCircle className="w-5 h-5 text-[#25D366] mt-0.5" />
+                  <span className="text-sm">+237 680 23 34 14 (WhatsApp)</span>
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/237695551954" target="_blank" rel="noreferrer" className="flex items-start gap-3 group text-gray-400 hover:text-white transition-colors">
-                  <MessageCircle className="w-5 h-5 text-[#25D366] mt-0.5" />
-                  <span className="text-sm">+237 695 55 19 54 (WhatsApp)</span>
+                <a href="tel:+237687666154" className="flex items-start gap-3 group text-gray-400 hover:text-white transition-colors">
+                  <Phone className="w-5 h-5 text-electric-blue mt-0.5 group-hover:text-electric-cyan transition-colors" />
+                  <span className="text-sm">+237 687 66 61 54</span>
                 </a>
               </li>
               <li>

@@ -68,25 +68,25 @@ export default function Contact() {
                         </div>
                     </a>
 
-                    {/* Phone */}
-                    <a href="tel:+237676096350" className="flex items-start gap-4 p-4 rounded-2xl bg-dark-panel/50 border border-white/5 hover:border-electric-blue/30 transition-colors group">
-                        <div className="w-12 h-12 bg-electric-blue/10 rounded-xl flex items-center justify-center text-electric-blue flex-shrink-0 group-hover:bg-electric-blue group-hover:text-white transition-colors">
-                            <Phone className="w-6 h-6" />
-                        </div>
-                        <div>
-                            <h3 className="text-white font-medium mb-1">Appel Téléphonique</h3>
-                            <p className="text-gray-400 text-sm group-hover:text-electric-cyan transition-colors">+237 676 09 63 50</p>
-                        </div>
-                    </a>
-
                     {/* WhatsApp */}
-                    <a href="https://wa.me/237695551954" target="_blank" rel="noreferrer" className="flex items-start gap-4 p-4 rounded-2xl bg-dark-panel/50 border border-white/5 hover:border-[#25D366]/30 transition-colors group">
+                    <a href="https://wa.me/237680233414" target="_blank" rel="noreferrer" className="flex items-start gap-4 p-4 rounded-2xl bg-dark-panel/50 border border-white/5 hover:border-[#25D366]/30 transition-colors group">
                         <div className="w-12 h-12 bg-[#25D366]/10 rounded-xl flex items-center justify-center text-[#25D366] flex-shrink-0 group-hover:bg-[#25D366] group-hover:text-white transition-colors">
                             <MessageCircle className="w-6 h-6" />
                         </div>
                         <div>
                             <h3 className="text-white font-medium mb-1">WhatsApp</h3>
-                            <p className="text-gray-400 text-sm group-hover:text-[#25D366] transition-colors">+237 695 55 19 54</p>
+                            <p className="text-gray-400 text-sm group-hover:text-[#25D366] transition-colors">+237 680 23 34 14</p>
+                        </div>
+                    </a>
+
+                    {/* Phone */}
+                    <a href="tel:+237687666154" className="flex items-start gap-4 p-4 rounded-2xl bg-dark-panel/50 border border-white/5 hover:border-electric-blue/30 transition-colors group">
+                        <div className="w-12 h-12 bg-electric-blue/10 rounded-xl flex items-center justify-center text-electric-blue flex-shrink-0 group-hover:bg-electric-blue group-hover:text-white transition-colors">
+                            <Phone className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <h3 className="text-white font-medium mb-1">Appel Téléphonique</h3>
+                            <p className="text-gray-400 text-sm group-hover:text-electric-cyan transition-colors">+237 687 66 61 54</p>
                         </div>
                     </a>
 
