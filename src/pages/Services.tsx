@@ -115,11 +115,17 @@ export default function Services() {
       >
         {services.map((service, index) => {
           const Icon = service.icon;
+          const message = encodeURIComponent(`J'suis intéressé par ${service.title}, pourrais-je en savoir plus ?`);
+          const whatsappUrl = `https://wa.me/237680233414?text=${message}`;
+
           return (
-            <motion.div
+            <motion.a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noreferrer"
               key={service.id}
               variants={itemVariants}
-              className={`bg-dark-panel border border-white/5 rounded-3xl overflow-hidden hover:border-white/20 transition-all group flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} shadow-[0_4px_30px_rgba(0,0,0,0.1)]`}
+              className={`bg-dark-panel border border-white/5 rounded-3xl overflow-hidden hover:border-white/20 transition-all group flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} shadow-[0_4px_30px_rgba(0,0,0,0.1)] cursor-pointer block`}
             >
               <div className="h-64 md:h-auto md:w-5/12 lg:w-2/5 relative overflow-hidden shrink-0">
                 <img src={service.image} alt={service.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
@@ -133,12 +139,12 @@ export default function Services() {
                   <Icon className="w-8 h-8" />
                 </div>
                 
-                <h3 className="text-2xl md:text-3xl font-display font-bold text-white mb-4 relative z-20">{service.title}</h3>
+                <h3 className="text-2xl md:text-3xl font-display font-bold text-white mb-4 relative z-20 group-hover:text-electric-cyan transition-colors duration-300">{service.title}</h3>
                 <p className="text-gray-400 leading-relaxed text-base md:text-lg relative z-20">
                   {service.description}
                 </p>
               </div>
-            </motion.div>
+            </motion.a>
           );
         })}
       </motion.div>
